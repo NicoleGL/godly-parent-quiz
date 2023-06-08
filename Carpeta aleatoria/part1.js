@@ -3,7 +3,7 @@ function imprimirString (frase) {
 }
 
 function sumar (num1, num2) {
-    return num1 - num2;
+    return num1 + num2;
 }
 
 function gabardina (gab) {
