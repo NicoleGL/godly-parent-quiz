@@ -1,0 +1,85 @@
+html {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --background: #005f6b;
+    --silver: #C0C0C0;
+    --darkgray: #A9A9A9;
+    --aquamarine: #5ddfbd;
+    --greek-looking-font: 'Alegreya Sans SC';
+}
+
+.supertitle {
+    font-size: 50px;
+    color: var(--silver);
+    font-family: var(--greek-looking-font);
+}
+
+.title {
+    font-size: 30px;
+    color: var(--silver);
+    font-family: var(--greek-looking-font);
+    margin: 0px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: var(--silver);
+    font-family: 'Jura', sans-serif;
+    margin-top: 0;
+}
+
+.main-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.image {
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 4px #003036);
+}
+
+button {
+    appearance: none;
+    border: none;
+    background-color: black;
+    font-family: var(--greek-looking-font);
+    color: var(--silver);
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
